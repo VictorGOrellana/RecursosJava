@@ -1,0 +1,34 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Capturando Exceções</title>
+</head>
+<script type="text/javascript" src ="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<body>
+	
+	<h5>Capturando Exceções com jquery</h5>
+	
+	<input type="text" value = "valorInformado" id="txt_valor">
+	<input type="button" onclick = "testeJQuery();" value = "Submit">
+
+<script type="text/javascript"> 
+	function testeJQuery(){
+		var valorInformado = $('#txt_valor').val(); 
+		
+		$.ajax({
+			method: "POST",
+			url: "capturarExec",
+			data: { valorParam : valorInformado}
+			
+		})
+		.always(function(response){
+			alert(response);
+		});
+	}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Load Com JQuery</title>
+<script type="text/javascript" src ="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+	<h3>Pagina Pai Load Jquery</h3>
+		<input type="button" value="Carregar Pag. Filha" onclick="carregar();">
+		
+		
+		<div id="mostrarPaginaFilha"></div>
+		
+
+</body>
+<script>
+	function carregar(){
+		$("mostrarPaginaFilha").load('paginaFilha.jsp');
+		
+	}
+	
+
+</script>
+</html>

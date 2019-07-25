@@ -1,0 +1,5 @@
+INDEX VERSION 1.131
+C:\Users\Vitor\Desktop\Loia\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2312042696.index
+\curso.edu\src
+C:\Users\Vitor\Desktop\Loia\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1576231094.index
+\curso.edu\src

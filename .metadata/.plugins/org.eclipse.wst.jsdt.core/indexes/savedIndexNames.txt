@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+C:\Users\Vitor\Desktop\Loia\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+714692726.index
+2312042696.index
+63997954.index
+3125602913.index
+1544706359.index
+780447470.index
+3613042119.index

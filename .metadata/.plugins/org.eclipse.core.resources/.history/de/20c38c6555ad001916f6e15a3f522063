@@ -1,0 +1,24 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Capturando Exceções</title>
+</head>
+<script type="text/javascript" src ="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<body>
+	
+	<h1>Capturando Exceções com jquery</h1>
+	
+	<input type="text" value = "teste">
+	<input type="button" onclick = "testeJQuery();" value = "Submit">
+
+<script type="text/javascript"> 
+	function testeJQuery(){
+		alert("Funcionou!")
+	}
+</script>
+
+</body>
+</html>
