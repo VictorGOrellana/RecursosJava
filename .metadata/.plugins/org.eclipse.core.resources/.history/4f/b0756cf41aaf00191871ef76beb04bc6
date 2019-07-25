@@ -26,6 +26,11 @@
 			
 				reader.onloadend = function(){
 					target.src = reader.result;
+				 
+				};
+				
+				if (file){
+					
 					
 					$.ajax({
 						method : "POST",
@@ -37,11 +42,6 @@
 					}).fail (function(xhr,status,errorThrown){
 						alert("Error: " +xhr.responseText);
 					});
-				};
-				
-				if (file){
-					
-			
 					
 					reader.readAsDataURL(file);
 					

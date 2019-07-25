@@ -34,6 +34,10 @@
 		<tr>
 			<td><a href="pages/uploads.jsp">Upload de Imagens</a></td>
 		</tr>
+		
+		<tr>
+			<td><a href="pages/dataTable.jsp">Data Table Jquery</a></td>
+		</tr>
 	</table>
 
 </body>
