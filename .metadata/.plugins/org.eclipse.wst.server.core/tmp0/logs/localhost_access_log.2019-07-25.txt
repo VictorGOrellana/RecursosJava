@@ -212,3 +212,17 @@
 0:0:0:0:0:0:0:1 - - [25/Jul/2019:16:12:17 -0300] "GET /curso.edu/pages/progressBar.jsp HTTP/1.1" 200 1843
 0:0:0:0:0:0:0:1 - - [25/Jul/2019:16:16:15 -0300] "GET /curso.edu/pages/progressBar.jsp HTTP/1.1" 200 2000
 0:0:0:0:0:0:0:1 - - [25/Jul/2019:16:16:26 -0300] "GET /curso.edu/pages/progressBar.jsp HTTP/1.1" 200 2000
+127.0.0.1 - - [25/Jul/2019:16:21:56 -0300] "GET / HTTP/1.1" 404 1073
+0:0:0:0:0:0:0:1 - - [25/Jul/2019:16:22:00 -0300] "GET /curso.edu/pages/progressBar.jsp HTTP/1.1" 200 689
+0:0:0:0:0:0:0:1 - - [25/Jul/2019:16:22:06 -0300] "GET /curso.edu/index.jsp HTTP/1.1" 200 641
+0:0:0:0:0:0:0:1 - - [25/Jul/2019:16:22:08 -0300] "GET /curso.edu/pages/uploads.jsp HTTP/1.1" 200 685
+0:0:0:0:0:0:0:1 - - [25/Jul/2019:16:22:09 -0300] "POST /curso.edu/pages/ServletAutenticacao HTTP/1.1" 200 146
+0:0:0:0:0:0:0:1 - - [25/Jul/2019:16:22:13 -0300] "GET /curso.edu/pages/progressBar.jsp HTTP/1.1" 200 2000
+0:0:0:0:0:0:0:1 - - [25/Jul/2019:16:22:23 -0300] "GET /curso.edu/pages/uploads.jsp HTTP/1.1" 200 146
+0:0:0:0:0:0:0:1 - - [25/Jul/2019:16:32:49 -0300] "GET /curso.edu/index.jsp HTTP/1.1" 200 641
+0:0:0:0:0:0:0:1 - - [25/Jul/2019:16:32:50 -0300] "GET /curso.edu/pages/uploads.jsp HTTP/1.1" 200 264
+0:0:0:0:0:0:0:1 - - [25/Jul/2019:16:34:40 -0300] "GET /curso.edu/pages/uploads.jsp HTTP/1.1" 200 354
+0:0:0:0:0:0:0:1 - - [25/Jul/2019:16:34:43 -0300] "GET /curso.edu/pages/uploads.jsp HTTP/1.1" 200 354
+0:0:0:0:0:0:0:1 - - [25/Jul/2019:16:39:17 -0300] "GET /curso.edu/pages/uploads.jsp HTTP/1.1" 200 773
+0:0:0:0:0:0:0:1 - - [25/Jul/2019:16:40:44 -0300] "GET /curso.edu/pages/uploads.jsp HTTP/1.1" 200 774
+0:0:0:0:0:0:0:1 - - [25/Jul/2019:16:41:21 -0300] "GET /curso.edu/pages/uploads.jsp HTTP/1.1" 200 775
